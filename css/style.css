@@ -272,8 +272,8 @@ img { max-width: 100%; display: block; }
   padding: calc(var(--header-h) + 70px) 0 100px;
   color: var(--cream);
   background:
+    linear-gradient(90deg, rgba(13,27,42,0.82) 0%, rgba(13,27,42,0.6) 55%, rgba(13,27,42,0.3) 100%),
     linear-gradient(180deg, rgba(13,27,42,0.55) 0%, rgba(13,27,42,0.45) 45%, rgba(13,27,42,0.92) 100%),
-    linear-gradient(150deg, rgba(13,27,42,0.35), rgba(65,90,119,0.2)),
     url('../images/hero.jpg');
   background-size: cover;
   background-position: center 65%;
