@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
   if (hero && header) {
     var toggleTransparency = function () {
-      header.classList.toggle('at-top', window.scrollY < 40);
+      header.classList.toggle('at-top', window.scrollY < 50);
     };
     toggleTransparency();
     window.addEventListener('scroll', toggleTransparency, { passive: true });
